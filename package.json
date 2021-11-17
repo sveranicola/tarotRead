@@ -1,0 +1,37 @@
+{
+  "name": "tarotread",
+  "version": "1.0.0",
+  "description": "This is a simple aplication to generate a tarot reading for the user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveranicola/tarotRead.git"
+  },
+  "author": "Santiago Vera Nicola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sveranicola/tarotRead/issues"
+  },
+  "homepage": "https://github.com/sveranicola/tarotRead#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
