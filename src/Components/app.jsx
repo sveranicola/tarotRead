@@ -5,7 +5,12 @@ import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 var App = () => {
   return (
     <div>
-      Start page
+      Tarot
+      <BrowserRouter >
+        <Route path='/' exact>
+          Home
+        </Route>
+      </BrowserRouter>
     </div>
   )
 }
