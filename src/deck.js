@@ -256,22 +256,22 @@ deck = [
   {
     name: 'Ace of Cups',
     rs: 'Cups',
-    upRight: '',
-    reversed:'',
+    upRight: 'Renewed Emotions, Love, Happiness, Sensitivity, Creativity, Abundance',
+    reversed: 'Feeling unloved, Rejection, Unhappy, Loss, Manipulation, Relationship Issues',
     url: '',
   },
   {
     name: 'Two of Cups',
     rs: 'Cups',
-    upRight: '',
-    reversed:'',
+    upRight: 'Uniting, Sharring, Attraction, Partnership, Love, Trusting',
+    reversed: 'Relationship Ending, Dislike, Leaving, Distrust, Self Love',
     url: '',
   },
   {
     name: 'Three of Cups',
     rs: 'Cups',
-    upRight: '',
-    reversed:'',
+    upRight: 'Togetherness, Celebration, Thankful, Abundance, Playful, Fun, Trust',
+    reversed: 'Excess, Selfish, Withdrawn, Endings, Independence',
     url: '',
   },
   {
