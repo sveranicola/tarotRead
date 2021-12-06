@@ -15,9 +15,16 @@ var PullCards = () => {
     .catch((err) => {throw(err)});
   }, []);
 
+  function pullOne () {
+    const newP = pulled.slice(1);
+    const newF = [... flipped, pulled[0]];
+    addPulled(newP);
+    addFlipped(newF);
+  };
+
   return (
     <div>
-      Pull the cards
+      <button onClick={()=>{pullOne()}}>click</button>
     </div>
   )
 }
