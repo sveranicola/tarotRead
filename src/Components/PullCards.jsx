@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 import Axios from 'axios';
+// import deck from '../deck.js';
 
 
 var PullCards = () => {
@@ -24,7 +25,17 @@ var PullCards = () => {
 
   return (
     <div>
-      TarotRead
+      {flipped ?
+        flipped.map((obj) => {
+          const img = null;
+          return (
+            <div>
+              {obj.name}
+            </div>
+          );
+        })
+        : null
+      }
       <button onClick={()=>{pullOne()}}>click</button>
     </div>
   )
