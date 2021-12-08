@@ -24,6 +24,7 @@ var PullCards = () => {
 
   return (
     <div>
+      TarotRead
       <button onClick={()=>{pullOne()}}>click</button>
     </div>
   )
