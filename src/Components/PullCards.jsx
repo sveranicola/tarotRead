@@ -30,6 +30,7 @@ var PullCards = () => {
           const img = null;
           return (
             <div>
+              this is a card
               {obj.name}
             </div>
           );
