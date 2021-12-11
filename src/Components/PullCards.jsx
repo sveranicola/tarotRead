@@ -30,7 +30,7 @@ var PullCards = () => {
           const img = null;
           return (
             <div>
-              this is a card
+              this is where a card should be
               {obj.name}
             </div>
           );
