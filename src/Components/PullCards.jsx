@@ -30,7 +30,8 @@ var PullCards = () => {
           const img = null;
           return (
             <div>
-              this is where a card should be
+              insert new words here
+
               {obj.name}
             </div>
           );
