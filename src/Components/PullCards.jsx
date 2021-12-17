@@ -31,7 +31,7 @@ var PullCards = () => {
           return (
             <div>
               insert new words here
-
+              Next time maybe i add the pictures actually
               {obj.name}
             </div>
           );
